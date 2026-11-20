@@ -7,7 +7,7 @@ import streamlit as st
 import helpers as H
 
 GITHUB_URL = "https://github.com/Mahnoor315/CartSense"          
-YEAR_TEXT = "© 2026"
+
 
 APP_NAME = "CartSense"
 QUOTE = "Know who is ready to buy before they leave."
