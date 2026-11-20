@@ -6,12 +6,11 @@ CartSense is a machine learning web app that looks at what a visitor does during
 (pages viewed, time spent, bounce and exit rates, page value, visitor type, month, weekend) and estimates
 how likely that session is to end in a purchase.
 
-⚠️ **Educational prototype.** Trained on one public dataset from a single retailer. Not a live business tool.
 
 ### Live Demo
-👉 **[Open the app](http://localhost:8501/)**
+👉 **[Open the app](https://cartsensee.streamlit.app/)**
 
-![CartSense demo](assets/demo.png)
+
 
 ## Table of Contents
 - [Problem](#problem)
@@ -116,7 +115,4 @@ To run the notebook instead, install `notebook`, `shap`, `matplotlib` and `seabo
 - Predicted probabilities are not calibrated business probabilities
 - Not for real marketing or pricing decisions
 
-## Dataset Credit
-Sakar, C. and Kastro, Y. (2018). *Online Shoppers Purchasing Intention Dataset*. UCI Machine Learning Repository. CC BY 4.0.
 
-*Made by [YOUR NAMES] | © 2026*
