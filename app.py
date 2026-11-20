@@ -6,7 +6,7 @@ import streamlit as st
 
 import helpers as H
 
-GITHUB_URL = ""          # <- paste your GitHub link between the quotes, e.g. "https://github.com/yourname/cartsense"
+GITHUB_URL = "https://github.com/Mahnoor315/CartSense"          
 YEAR_TEXT = "© 2026"
 
 APP_NAME = "CartSense"
