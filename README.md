@@ -74,10 +74,7 @@ Validation set:
 | **Random Forest** | **0.873** | **0.580** | **0.679** | **0.625** | **0.914** |
 | RBF SVM | 0.855 | 0.526 | 0.734 | 0.613 | 0.892 |
 
-Final test set (Random Forest): accuracy 0.895, precision 0.646, recall 0.723, F1 0.682, ROC-AUC 0.924.
 
-Because only about 15% of sessions are purchases, always predicting "no purchase" already gives about 84% accuracy,
-so precision, recall, F1 and ROC-AUC are the metrics that matter here.
 
 ## Run Locally
 ```bash
@@ -86,10 +83,8 @@ cd YOUR-REPO
 pip install -r requirements.txt
 streamlit run app.py
 ```
-The first start takes about a minute because the models are trained on startup.
 
-To run the notebook instead, install `notebook`, `shap`, `matplotlib` and `seaborn`, then open
-`CartSense_Notebook.ipynb` in Jupyter or VS Code. It reads `online_shoppers_intention.csv` from the same folder.
+
 
 ## Project Files
 | File | What it is |
